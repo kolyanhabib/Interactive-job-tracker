@@ -31,7 +31,38 @@
       }
     </style>
   </head>
-  <body>
+  <body class="bg-slate-50">
+    
+    <!-- full content cover in this main section -->
 
+    <main class="max-w-[1110px] mx-auto px-8 py-14">
+      <div class="header-title mb-4">
+        <h1 class="text-3xl font-bold text-blue-950 mb-5">
+          Job Application Tracker
+        </h1>
+
+        <!-- stats section -->
+
+        <section class="stats grid grid-cols-1 md:grid-cols-3 gap-4 mb-8">
+          <div class="stat bg-white rounded-lg shadow-xs p-5">
+            <p class="text-sm font-medium text-slate-700 mb-2">Total</p>
+            <p id="totalCount" class="text-2xl font-bold text-blue-950">8</p>
+          </div>
+
+          <div class="stat bg-white rounded-lg shadow-xs p-5">
+            <p class="text-sm font-medium text-slate-700 mb-2">Interview</p>
+            <p id="interviewCount" class="text-2xl font-bold text-emerald-500">
+              0
+            </p>
+          </div>
+
+          <div class="stat bg-white rounded-lg shadow-xs p-5">
+            <p class="text-sm font-medium text-slate-700 mb-2">Rejected</p>
+            <p id="rejectedCount" class="text-2xl font-bold text-red-500">0</p>
+          </div>
+        </section>
+      </div>
+      <div class="w-full h-px bg-slate-200 mb-8"></div>
+    </main>
   </body>
 </html>
